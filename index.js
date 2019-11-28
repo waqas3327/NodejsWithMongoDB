@@ -101,7 +101,7 @@ app.post('/login',  async (req, res) => {
     }
     else{
       console.log('passwod doesnot match');
-      res.status(401).send({message: 'wrong email or password!'});
+      res.status(401).send({message: 'wrong email or password!correct it'});
     }
   }
 });
